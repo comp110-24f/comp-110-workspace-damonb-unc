@@ -5,7 +5,7 @@ __author__ = "730650836"
 
 def main_planner(guests: int) -> None:
     """Bring all the functions together"""
-    """String notations plus call functions using guest parameter to match with other parameters"""
+    """String notations + functions using guest parameter"""
     print("A Cozy Tea Party for " + str(guests) + " People")
     print("Tea Bags: " + str(tea_bags(people=guests)))
     print("Treats: " + str(treats(people=guests)))
