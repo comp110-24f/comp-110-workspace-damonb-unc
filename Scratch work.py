@@ -1,18 +1,9 @@
-def fuel_needed(distance: int, mpg: int) -> float:
-    return distance / mpg
+x: list[float] = [1.0, 2.0]
+y: list[float] = [3.0, 4.0]
+y = x
+x[0] = 3.0
 
+print(x)
+print(y)
 
-def total_fuel_cost(distance: int, mpg: int, price_per_gallon: int) -> float:
-    return fuel_needed(distance=distance, mpg=mpg) * price_per_gallon
-
-
-print(total_fuel_cost(distance=300, mpg=25, price_per_gallon=4))
-
-age: int = 10
-age = age + 1
-
-
-i = 0
-while i < 5:
-    print("Loop!")
-    i = i + 1
+print(chr(129312))
