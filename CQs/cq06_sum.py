@@ -23,7 +23,7 @@ def f_sum(vals: list[float]) -> float:
 
 
 def f_range_sum(vals: list[float]) -> float:
-    y = 0.0
+    y: float = 0.0
     for idx in range(0, len(vals)):
-        y = float(idx) + y
+        y += vals[idx]
     return y
